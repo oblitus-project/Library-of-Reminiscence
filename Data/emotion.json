@@ -1,0 +1,882 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-10-14T16:47:44.636Z",
+ "source": "doc/build/keyword/emotion.md",
+ "stats": {
+  "total": 12,
+  "byFamily": {
+   "觉醒情绪": 3,
+   "崩溃情绪": 6,
+   "扭曲情绪": 3
+  },
+  "withSanity": 12,
+  "withGrants": 12,
+  "withConversion": 3,
+  "withTransform": 2,
+  "withErosion": 9,
+  "unparsedLines": 0
+ },
+ "entries": [
+  {
+   "key": "开心",
+   "name": "开心",
+   "family": "觉醒情绪",
+   "group": "开心/狂喜/癫狂",
+   "tier": 1,
+   "polarity": "正面",
+   "tags": [
+    "#LoR/情绪/开心",
+    "#LoR/机制/情绪等级/1"
+   ],
+   "trigger": {
+    "sanity": 1,
+    "grants": [
+     {
+      "effect": "理智回复率增加",
+      "target": "理智回复率增加 X%",
+      "display": "理智回复率增加 10%",
+      "value": 10,
+      "unit": "%"
+     },
+     {
+      "effect": "受回复率增加",
+      "target": "受回复率增加 X%",
+      "display": "受回复率增加 10%",
+      "value": 10,
+      "unit": "%"
+     },
+     {
+      "effect": "混乱承伤率降低",
+      "target": "混乱承伤率降低 X%",
+      "display": "混乱承伤率降低 10%",
+      "value": 10,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": "[!info]- 处于狂喜+，理智已达上限(+50)且拥有相应 EFW 技能时，下回合进入癫狂情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/开心 #LoR/机制/情绪等级/1",
+    "情绪等级 I]",
+    "[回合开始] 或 [获得情绪]",
+    "- 恢复 1 点理智；",
+    "- 获得理智回复率增加 10%；",
+    "- 获得受回复率增加 10%；",
+    "- 获得混乱承伤率降低 10%。"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "狂喜",
+   "name": "狂喜",
+   "family": "觉醒情绪",
+   "group": "开心/狂喜/癫狂",
+   "tier": 2,
+   "polarity": "正面",
+   "tags": [
+    "#LoR/情绪/狂喜",
+    "#LoR/机制/情绪等级/2"
+   ],
+   "trigger": {
+    "sanity": 2,
+    "grants": [
+     {
+      "effect": "理智回复率增加",
+      "target": "理智回复率增加 X%",
+      "display": "理智回复率增加 25%",
+      "value": 25,
+      "unit": "%"
+     },
+     {
+      "effect": "受回复率增加",
+      "target": "受回复率增加 X%",
+      "display": "受回复率增加 25%",
+      "value": 25,
+      "unit": "%"
+     },
+     {
+      "effect": "混乱承伤率降低",
+      "target": "混乱承伤率降低 X%",
+      "display": "混乱承伤率降低 25%",
+      "value": 25,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": "[!info]- 处于狂喜+，理智已达上限(+50)且拥有相应 EFW 技能时，下回合进入癫狂情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/狂喜 #LoR/机制/情绪等级/2",
+    "情绪等级 II]",
+    "[回合开始] 或 [获得情绪]",
+    "- 恢复 2 点理智；",
+    "- 获得理智回复率增加 25%；",
+    "- 获得受回复率增加 25%；",
+    "- 获得混乱承伤率降低 25%。"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "癫狂",
+   "name": "癫狂",
+   "family": "觉醒情绪",
+   "group": "开心/狂喜/癫狂",
+   "tier": 3,
+   "polarity": "正面",
+   "tags": [
+    "#LoR/情绪/癫狂",
+    "#LoR/机制/情绪等级/3"
+   ],
+   "trigger": {
+    "sanity": 3,
+    "grants": [
+     {
+      "effect": "理智回复率增加",
+      "target": "理智回复率增加 X%",
+      "display": "理智回复率增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "受回复率增加",
+      "target": "受回复率增加 X%",
+      "display": "受回复率增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "混乱承伤率降低",
+      "target": "混乱承伤率降低 X%",
+      "display": "混乱承伤率降低 50%",
+      "value": 50,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": "[!info]- 处于狂喜+，理智已达上限(+50)且拥有相应 EFW 技能时，下回合进入癫狂情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/癫狂 #LoR/机制/情绪等级/3",
+    "情绪等级 III]",
+    "[回合开始] 或 [获得情绪]",
+    "- 恢复 3 点理智；",
+    "- 获得理智回复率增加 50%；",
+    "- 获得受回复率增加 50%；",
+    "- 获得混乱承伤率降低 50%。",
+    "---"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "生气",
+   "name": "生气",
+   "family": "崩溃情绪",
+   "group": "生气/愤怒/狂怒",
+   "tier": 1,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/生气",
+    "#LoR/机制/情绪等级/1"
+   ],
+   "trigger": {
+    "sanity": -3,
+    "grants": [
+     {
+      "effect": "承伤率增加",
+      "target": "承伤率增加 X%",
+      "display": "承伤率增加 10%",
+      "value": 10,
+      "unit": "%"
+     },
+     {
+      "effect": "伤害率增加",
+      "target": "伤害率增加 X%",
+      "display": "伤害率增加 20%",
+      "value": 20,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": "[!info]- 处于愤怒+，理智已达下限(-50)且拥有相应 EFW 技能时，下回合进入狂怒情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/生气 #LoR/机制/情绪等级/1",
+    "情绪等级 I]",
+    "[回合开始] 或 [获得情绪]",
+    "- 失去 3 点理智；",
+    "- 获得承伤率增加 10%；",
+    "- 获得伤害率增加 20%。"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "愤怒",
+   "name": "愤怒",
+   "family": "崩溃情绪",
+   "group": "生气/愤怒/狂怒",
+   "tier": 2,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/愤怒",
+    "#LoR/机制/情绪等级/2"
+   ],
+   "trigger": {
+    "sanity": -5,
+    "grants": [
+     {
+      "effect": "承伤率增加",
+      "target": "承伤率增加 X%",
+      "display": "承伤率增加 25%",
+      "value": 25,
+      "unit": "%"
+     },
+     {
+      "effect": "伤害率增加",
+      "target": "伤害率增加 X%",
+      "display": "伤害率增加 50%",
+      "value": 50,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": "[!info]- 处于愤怒+，理智已达下限(-50)且拥有相应 EFW 技能时，下回合进入狂怒情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/愤怒 #LoR/机制/情绪等级/2",
+    "情绪等级 II]",
+    "[回合开始] 或 [获得情绪]",
+    "- 失去 5 点理智；",
+    "- 获得承伤率增加 25%；",
+    "- 获得伤害率增加 50%。"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "狂怒",
+   "name": "狂怒",
+   "family": "崩溃情绪",
+   "group": "生气/愤怒/狂怒",
+   "tier": 3,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/狂怒",
+    "#LoR/机制/情绪等级/3"
+   ],
+   "trigger": {
+    "sanity": -10,
+    "grants": [
+     {
+      "effect": "承伤率增加",
+      "target": "承伤率增加 X%",
+      "display": "承伤率增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "伤害率增加",
+      "target": "伤害率增加 X%",
+      "display": "伤害率增加 100%",
+      "value": 100,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": "[!info]- 处于愤怒+，理智已达下限(-50)且拥有相应 EFW 技能时，下回合进入狂怒情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/狂怒 #LoR/机制/情绪等级/3",
+    "情绪等级 III]",
+    "[回合开始] 或 [获得情绪]",
+    "- 失去 10 点理智；",
+    "- 获得承伤率增加 50%；",
+    "- 获得伤害率增加 100%。"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "悲伤",
+   "name": "悲伤",
+   "family": "崩溃情绪",
+   "group": "悲伤/抑郁/绝望",
+   "tier": 1,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/悲伤",
+    "#LoR/机制/情绪等级/1"
+   ],
+   "trigger": {
+    "sanity": -1,
+    "grants": [
+     {
+      "effect": "伤害率降低",
+      "target": "伤害率降低 X%",
+      "display": "伤害率降低 10%",
+      "value": 10,
+      "unit": "%"
+     },
+     {
+      "effect": "攻击承伤率降低",
+      "target": "攻击承伤率降低 X%",
+      "display": "攻击承伤率降低 10%",
+      "value": 10,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": {
+    "attackToConfusion": 0.1
+   },
+   "unstoppable": false,
+   "erosion": "[!info]- 处于抑郁+，理智已达下限(-50)且拥有相应 EFW 技能时，下回合进入绝望情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/悲伤 #LoR/机制/情绪等级/1",
+    "情绪等级 I]",
+    "持续对自身造成以下效果：",
+    "- 受到的 10% 攻击伤害转化为混乱伤害。",
+    "[回合开始] 或 [获得情绪]",
+    "- 失去 1 点理智；",
+    "- 获得伤害率降低 10%；",
+    "- 获得攻击承伤率降低 10%；"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "抑郁",
+   "name": "抑郁",
+   "family": "崩溃情绪",
+   "group": "悲伤/抑郁/绝望",
+   "tier": 2,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/抑郁",
+    "#LoR/机制/情绪等级/2"
+   ],
+   "trigger": {
+    "sanity": -3,
+    "grants": [
+     {
+      "effect": "伤害率降低",
+      "target": "伤害率降低 X%",
+      "display": "伤害率降低 25%",
+      "value": 25,
+      "unit": "%"
+     },
+     {
+      "effect": "攻击承伤率降低",
+      "target": "攻击承伤率降低 X%",
+      "display": "攻击承伤率降低 25%",
+      "value": 25,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": {
+    "attackToConfusion": 0.25
+   },
+   "unstoppable": false,
+   "erosion": "[!info]- 处于抑郁+，理智已达下限(-50)且拥有相应 EFW 技能时，下回合进入绝望情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/抑郁 #LoR/机制/情绪等级/2",
+    "情绪等级 II]",
+    "持续对自身造成以下效果：",
+    "- 受到的 25% 攻击伤害转化为混乱伤害。",
+    "[回合开始] 或 [获得情绪]",
+    "- 失去 3 点理智；",
+    "- 获得伤害率降低 25%；",
+    "- 获得攻击承伤率降低 25%；"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "绝望",
+   "name": "绝望",
+   "family": "崩溃情绪",
+   "group": "悲伤/抑郁/绝望",
+   "tier": 3,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/绝望",
+    "#LoR/机制/情绪等级/3"
+   ],
+   "trigger": {
+    "sanity": -5,
+    "grants": [
+     {
+      "effect": "伤害率降低",
+      "target": "伤害率降低 X%",
+      "display": "伤害率降低 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "攻击承伤率降低",
+      "target": "攻击承伤率降低 X%",
+      "display": "攻击承伤率降低 50%",
+      "value": 50,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": 0,
+    "transform": null
+   },
+   "persistent": {
+    "attackToConfusion": 0.5
+   },
+   "unstoppable": false,
+   "erosion": "[!info]- 处于抑郁+，理智已达下限(-50)且拥有相应 EFW 技能时，下回合进入绝望情绪侵蚀。",
+   "body": [
+    "#LoR/情绪/绝望 #LoR/机制/情绪等级/3",
+    "情绪等级 III]",
+    "持续对自身造成以下效果：",
+    "- 受到的 50% 攻击伤害转化为混乱伤害。",
+    "[回合开始] 或 [获得情绪]",
+    "- 失去 5 点理智；",
+    "- 获得伤害率降低 50%；",
+    "- 获得攻击承伤率降低 50%；",
+    "---"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "害怕",
+   "name": "害怕",
+   "family": "扭曲情绪",
+   "group": "害怕",
+   "tier": 1,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/害怕",
+    "#LoR/机制/扭曲情绪",
+    "#LoR/机制/情绪等级/1"
+   ],
+   "trigger": {
+    "sanity": 0,
+    "grants": [
+     {
+      "effect": "破绽",
+      "target": "破绽 X",
+      "display": "破绽",
+      "stacks": 1
+     },
+     {
+      "effect": "拼点威力降低",
+      "target": "拼点威力降低 X",
+      "display": "拼点威力降低"
+     },
+     {
+      "effect": "脆弱",
+      "target": "脆弱 X",
+      "display": "脆弱",
+      "stacks": 1
+     },
+     {
+      "effect": "伤害率降低",
+      "target": "伤害率降低 X%",
+      "display": "伤害率降低 20%",
+      "value": 20,
+      "unit": "%"
+     },
+     {
+      "effect": "造成伤害降低",
+      "target": "造成伤害降低 X%",
+      "display": "造成伤害降低 20%",
+      "value": 20,
+      "unit": "%"
+     },
+     {
+      "effect": "承伤率增加",
+      "target": "承伤率增加 X%",
+      "display": "承伤率增加 20%",
+      "value": 20,
+      "unit": "%"
+     },
+     {
+      "effect": "受到混乱伤害增加",
+      "target": "受到混乱伤害增加 X%",
+      "display": "受到混乱伤害增加 20%",
+      "value": 20,
+      "unit": "%"
+     },
+     {
+      "effect": "受到攻击伤害增加",
+      "target": "受到攻击伤害增加 X%",
+      "display": "受到攻击伤害增加 20%",
+      "value": 20,
+      "unit": "%"
+     },
+     {
+      "effect": "受回复率降低",
+      "target": "受回复率降低 X%",
+      "display": "受回复率降低 20%",
+      "value": 20,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": -5,
+    "transform": null
+   },
+   "persistent": null,
+   "unstoppable": false,
+   "erosion": null,
+   "body": [
+    "#LoR/情绪/害怕 #LoR/机制/扭曲情绪 #LoR/机制/情绪等级/1",
+    "情绪等级 I]",
+    "[回合开始] 或 [获得情绪]",
+    "- 获得 1 层破绽、拼点威力降低；",
+    "- 获得 1 层脆弱；",
+    "- 获得伤害率降低 20%、造成伤害降低 20%；",
+    "- 获得承伤率增加 20%、受到混乱伤害增加 20%、受到攻击伤害增加 20%；",
+    "- 获得受回复率降低 20%。",
+    "[回合结束] 失去 5 点理智；"
+   ],
+   "unparsed": []
+  },
+  {
+   "key": "痛苦",
+   "name": "痛苦",
+   "family": "扭曲情绪",
+   "group": "痛苦",
+   "tier": 2,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/崩溃",
+    "#LoR/类型/负面",
+    "#LoR/机制/扭曲情绪",
+    "#LoR/机制/情绪等级/2"
+   ],
+   "trigger": {
+    "sanity": 0,
+    "grants": [
+     {
+      "effect": "疲软",
+      "target": "疲软 X",
+      "display": "疲软",
+      "stacks": 1
+     },
+     {
+      "effect": "脆弱",
+      "target": "脆弱 X",
+      "display": "脆弱"
+     },
+     {
+      "effect": "虚弱",
+      "target": "虚弱 X",
+      "display": "虚弱",
+      "stacks": 2
+     },
+     {
+      "effect": "破绽",
+      "target": "破绽 X",
+      "display": "破绽"
+     },
+     {
+      "effect": "拼点威力降低",
+      "target": "拼点威力降低 X",
+      "display": "拼点威力降低"
+     },
+     {
+      "effect": "伤害率降低",
+      "target": "伤害率降低 X%",
+      "display": "伤害率降低 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "造成伤害降低",
+      "target": "造成伤害降低 X%",
+      "display": "造成伤害降低 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "造成混乱伤害降低",
+      "target": "造成混乱伤害降低 X%",
+      "display": "造成混乱伤害降低 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "造成攻击伤害降低",
+      "target": "造成攻击伤害降低 X%",
+      "display": "造成攻击伤害降低 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "承伤率增加",
+      "target": "承伤率增加 X%",
+      "display": "承伤率增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "混乱承伤率增加",
+      "target": "混乱承伤率增加 X%",
+      "display": "混乱承伤率增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "攻击承伤率增加",
+      "target": "攻击承伤率增加 X%",
+      "display": "攻击承伤率增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "受到伤害增加",
+      "target": "受到伤害增加 X%",
+      "display": "受到伤害增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "受到混乱伤害增加",
+      "target": "受到混乱伤害增加 X%",
+      "display": "受到混乱伤害增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "受到攻击伤害增加",
+      "target": "受到攻击伤害增加 X%",
+      "display": "受到攻击伤害增加 50%",
+      "value": 50,
+      "unit": "%"
+     },
+     {
+      "effect": "受回复率降低",
+      "target": "受回复率降低 X%",
+      "display": "受回复率降低 50%",
+      "value": 50,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": -10,
+    "transform": "害怕"
+   },
+   "persistent": {
+    "drawReduce": 1
+   },
+   "unstoppable": true,
+   "erosion": null,
+   "body": [
+    "#LoR/情绪/崩溃 #LoR/类型/负面 #LoR/机制/扭曲情绪 #LoR/机制/情绪等级/2",
+    "情绪等级 II]",
+    "本情绪无法被其他情绪覆盖。",
+    "对自身持续造成以下效果：",
+    "- 抽卡减少 1；",
+    "[回合开始] 或 [获得情绪]",
+    "- 获得 1 层疲软、脆弱；",
+    "- 获得 2 层虚弱、破绽、拼点威力降低；",
+    "- 获得伤害率降低 50%、造成伤害降低 50%、造成混乱伤害降低 50%、造成攻击伤害降低 50%；",
+    "- 获得承伤率增加 50%、混乱承伤率增加 50%、攻击承伤率增加 50%、受到伤害增加 50%、受到混乱伤害增加 50%、受到攻击伤害增加 50%；",
+    "- 获得受回复率降低 50%。",
+    "[回合结束]",
+    "- 失去 10 点理智；",
+    "- 转化为害怕。"
+   ],
+   "unparsed": [],
+   "tagName": "崩溃",
+   "warnings": [
+    "标签情绪「崩溃」与标题「痛苦」不一致，取标题"
+   ]
+  },
+  {
+   "key": "崩溃",
+   "name": "崩溃",
+   "family": "扭曲情绪",
+   "group": "崩溃",
+   "tier": 3,
+   "polarity": "负面",
+   "tags": [
+    "#LoR/情绪/崩溃",
+    "#LoR/类型/负面",
+    "#LoR/机制/扭曲情绪",
+    "#LoR/机制/情绪等级/3"
+   ],
+   "trigger": {
+    "sanity": 0,
+    "grants": [
+     {
+      "effect": "疲软",
+      "target": "疲软 X",
+      "display": "疲软",
+      "stacks": 3
+     },
+     {
+      "effect": "脆弱",
+      "target": "脆弱 X",
+      "display": "脆弱"
+     },
+     {
+      "effect": "虚弱",
+      "target": "虚弱 X",
+      "display": "虚弱",
+      "stacks": 5
+     },
+     {
+      "effect": "破绽",
+      "target": "破绽 X",
+      "display": "破绽"
+     },
+     {
+      "effect": "拼点威力降低",
+      "target": "拼点威力降低 X",
+      "display": "拼点威力降低"
+     },
+     {
+      "effect": "伤害率降低",
+      "target": "伤害率降低 X%",
+      "display": "伤害率降低 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "造成伤害降低",
+      "target": "造成伤害降低 X%",
+      "display": "造成伤害降低 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "造成混乱伤害降低",
+      "target": "造成混乱伤害降低 X%",
+      "display": "造成混乱伤害降低 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "造成攻击伤害降低",
+      "target": "造成攻击伤害降低 X%",
+      "display": "造成攻击伤害降低 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "承伤率增加",
+      "target": "承伤率增加 X%",
+      "display": "承伤率增加 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "混乱承伤率增加",
+      "target": "混乱承伤率增加 X%",
+      "display": "混乱承伤率增加 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "攻击承伤率增加",
+      "target": "攻击承伤率增加 X%",
+      "display": "攻击承伤率增加 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "受到伤害增加",
+      "target": "受到伤害增加 X%",
+      "display": "受到伤害增加 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "受到混乱伤害增加",
+      "target": "受到混乱伤害增加 X%",
+      "display": "受到混乱伤害增加 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "受到攻击伤害增加",
+      "target": "受到攻击伤害增加 X%",
+      "display": "受到攻击伤害增加 100%",
+      "value": 100,
+      "unit": "%"
+     },
+     {
+      "effect": "受回复率降低",
+      "target": "受回复率降低 X%",
+      "display": "受回复率降低 100%",
+      "value": 100,
+      "unit": "%"
+     }
+    ]
+   },
+   "turnEnd": {
+    "sanity": -15,
+    "transform": "痛苦"
+   },
+   "persistent": {
+    "cannotAct": true,
+    "drawReduce": 2
+   },
+   "unstoppable": true,
+   "erosion": null,
+   "body": [
+    "#LoR/情绪/崩溃 #LoR/类型/负面 #LoR/机制/扭曲情绪 #LoR/机制/情绪等级/3",
+    "情绪等级 III]",
+    "本情绪无法被其他情绪覆盖。",
+    "对自身持续造成以下效果：",
+    "- 无法行动；",
+    "- 抽卡减少 2。",
+    "[回合开始] 或 [获得情绪]",
+    "- 获得 3 层疲软、脆弱；",
+    "- 获得 5 层虚弱、破绽、拼点威力降低；",
+    "- 获得伤害率降低 100%、造成伤害降低 100%、造成混乱伤害降低 100%、造成攻击伤害降低 100%；",
+    "- 获得承伤率增加 100%、混乱承伤率增加 100%、攻击承伤率增加 100%、受到伤害增加 100%、受到混乱伤害增加 100%、受到攻击伤害增加 100%；",
+    "- 获得受回复率降低 100%。",
+    "[回合结束]",
+    "- 失去 15 点理智；",
+    "- 转化为痛苦。"
+   ],
+   "unparsed": []
+  }
+ ]
+}
